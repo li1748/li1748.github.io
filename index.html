@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>iBMW宝马新能源车主俱乐部</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="head">
+    <div class="banner-ct">
+        <h1>iBMW宝马新能源车主俱乐部</h1>
+    </div>
+    <div class="nav-btn-ct">
+      <button class="btn-default" id="iBMWBtn" onclick="navBtnEvent(event)">iBMW</button>
+      <button class="btn-default" id="iTripBtn" onclick="navBtnEvent(event)">i出行</button>
+      <button class="btn-default" id="iLifeBtn" onclick="navBtnEvent(event)">i生活</button>
+    </div>
+  </div>
+  </div>
+
+  <div class="main">
+    <h1>期待您的加入</h1>
+    <div>
+      <!-- <img class="banner-img" src="./images/banner.png"> -->
+      <img src="https://s2.ax1x.com/2019/08/05/e2iGlV.png" alt="" class="banner-img">
+    </div>
+    <div class="text-ct">
+      <p>iBMW宝马新能源车主俱乐部隶属于宝马官方车主俱乐部，全国“悦之盟”成员之一。立足上海，放眼全国，涵盖i3、i8、x1 混动、x5混动、
+        530混动、740混动等多款宝马新能源车型，聚集全国四千多位宝马新能源车主，为大家了解新能源，加入新能源提供了最真实回馈，欢迎志同道合的bimmer一起加入到到宝马新能源车主的大家庭。<br>微信搜索“<b>ibmw666666</b>”添加微信管理员。
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    <p>Copyright © 2019-Present www.bmwiclub.com All Rights Reserved. </p>
+  </footer>
+  <script>
+    function navBtnEvent(event) {
+      var btnId = event.target.innerHTML;
+      switch (btnId) {
+        case 'iBMW':
+          window.open(
+            "https://mp.weixin.qq.com/s?__biz=MzU3MDUyODQ4Mg==&mid=100000437&idx=1&sn=bdc4b8391401003dbd365447950d2dec&chksm=7cef45384b98cc2eb8497db8a906b73fbb6e89e577b0125b2d48b5455efa1e262b6ad9c6f180#rd"
+            );
+          break;
+        case 'i出行':
+          window.open("https://www.bmw.com.cn/zh/topics/experience/electromobility/iperformance/overview.html");
+          break;
+        case 'i生活':
+          window.open("https://www.bmw.com.cn/zh/topics/experience/electromobility/iperformance/introduction.html");
+          break;
+        default:
+          break;
+      }
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head {
+  background: #94a4a3;
+}
+
+.head .banner-ct {
+  padding: 2rem 0;
+  height: 6rem;
+  background: #b93921;
+}
+
+.head .banner-ct h1 {
+  margin: 0 auto;
+  padding-left: 1rem;
+  max-width: 1000px;
+  height: 2rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #ffffff;
+}
+
+.nav-btn-ct {
+  display: flex;
+  margin: 0 auto;
+  padding: .5rem 0;
+  max-width: 1000px;
+  background: #94a4a3;
+}
+
+.nav-btn-ct>button {
+  padding: .3rem 0;
+  /* width: 33.33%; */
+  width: 5rem;
+  font-weight: 600;
+  color: #ffffff;
+  background: #94a4a3;
+  border: none;
+  border-right: 1px solid #ffffff;
+  outline: none;
+}
+
+.nav-btn-ct>button:last-child {
+  border: none;
+}
+
+.main {
+  margin: 0 auto;
+  padding: 1rem;
+  min-height: 100vh;
+  max-width: 1000px;
+  border-radius: 0;
+  background: #ffffff;
+}
+
+.main .banner-img {
+  margin: .5rem 0;
+  width: 100% !important;
+}
+
+.main h1 {
+  padding: .4rem 0 1rem;
+  font-size: 1.2rem;
+}
+
+.main .text-ct {
+  padding: .5rem;
+  margin-bottom: .5rem;
+}
+
+.main p {
+  line-height: 1.5;
+  text-indent:2em;
+}
+
+.QRcode-ct {
+  text-align: center;
+}
+
+.QRcode {
+  width: 50% !important;
+}
+
+footer {
+  padding: .5rem 1rem;
+  font-size: .8rem;
+  color: #ffffff;
+  background: #576cb8;
+}
+footer p {
+  margin: 0 auto;
+  max-width: 1000px;
+}
